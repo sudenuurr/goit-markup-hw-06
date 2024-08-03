@@ -1,0 +1,35 @@
+@media (min-width: 320px) {
+  /* .section-ul {
+    flex-wrap: wrap;
+  } */
+  .hamburger-menu {
+    display: none;
+  }
+  .header-ul .list .etiket {
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-family: "Roboto", sans-serif;
+    padding: 24px 0;
+  }
+  .header-ul {
+    display: flex;
+    flex-direction: initial;
+    gap: 40px;
+  }
+
+  .home-navbar {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+  }
+  .address .address-link {
+    display: flex;
+    flex-direction: column;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    gap: 12px;
+  }
+}
